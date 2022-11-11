@@ -1,0 +1,75 @@
+body {
+	font-family: "roboto", sans-serif;
+	margin: 20px;
+	padding: 0;
+}
+
+
+/*CARD CSS*/
+
+.card {
+	width: 300px;
+	border:  1px solid #f1f1f1;
+	border-radius: 15px;
+}
+
+
+
+.container {
+		display:  flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 200px;
+	overflow:  hidden;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+
+.card-image {
+	width: 100%;
+}
+
+
+#name {
+	color: #1d5cd7;
+	font-size: 16px;
+	width: 168px;
+	margin: 0;
+}
+
+#info {
+	color: rgba(0,0,0,0.6);
+	font-size: 14px;
+	width: 168px;
+	margin: 0;
+}
+
+#nameprice {
+	color: #1d5cd7;
+	text-align: end;
+	font-size: 16px;
+	width: 68px;
+	margin: 0;
+}
+.price {
+	margin: 16px;
+}
+
+.description {
+	margin: 16px;
+}
+
+.card-text {
+	display:  flex;
+	justify-content: space-between;
+}
+
+
+.card-gallery {
+	padding:  40px 0px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
